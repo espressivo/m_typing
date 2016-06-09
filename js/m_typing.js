@@ -7,21 +7,19 @@ var miss = 0;
 var start_time = 0;
 
 function start() {
-  var mondai = $("#mondai");
-  
   MONDAI_CHARS = $("#chars")[0].value;
   MONDAI_LENGTH = Number($("#length")[0].value);
-  
-  mondai_str = "";
-  typed_length = 0;
-  mondai_html = "";
   var mondai_chars_length = MONDAI_CHARS.length;
+  mondai_str = "";
   for (var i = 0; i < MONDAI_LENGTH; i++) {
     mondai_str += MONDAI_CHARS[Math.floor(Math.random()*mondai_chars_length)];
   }
+  var mondai = $("#mondai");
   mondai[0].innerHTML = mondai_str;
+
   now_char = mondai_str[0];
   miss = 0;
+  typed_length = 0;
   $("#chars")[0].blur();
   $("#length")[0].blur();
   start_time = +new Date();
