@@ -1,0 +1,97 @@
+﻿body {
+  margin: auto;
+  background: #BD9;
+  color: #020202;
+  font-family: "メイリオ";
+}
+
+h1 {
+  margin: 0px;
+  font-family: "Times New Roman";
+  font-weight: bold;
+}
+
+div.content_item h3 {
+  margin: 3px;
+  padding: 0px;
+}
+
+div.content_item p {
+  margin: 0px;
+  padding-left: 50px;
+}
+
+div.structure#site_header {
+  margin: auto;
+  width: 1000px;
+  font-size: 10px;
+  text-align: right;
+}
+
+div.site_header_logo {
+  width: 100px;
+  border: 1px solid black;
+}
+
+div.site_header_tab {
+  width: 100px;
+  border: 1px solid black;
+  text-align: center;
+}
+
+div.structure#header {
+  margin: auto;
+  width: 1000px;
+}
+
+div.structure#header_left {
+  float: left;
+  width: 700px;
+}
+
+div.structure#header_right {
+  float: right;
+  width: 300px;
+}
+
+div.description {
+  font-size: 16px;
+}
+
+div#detail, div#about {
+  margin: 2px 0px;
+}
+
+div.button {
+  border-radius: 10px;
+  -moz-border-radius: 10px; /* for Firefox */
+  -webkit-border-radius: 10px; /* for Chrome */
+  font-size: 16px;
+  text-align: center;
+  padding: 2px 0px;
+  background: rgba(255, 255, 255, 0.5);
+}
+
+div.popup {
+  display: none;
+  position: absolute;
+  left: 90px;
+  top: 90px;
+  width: 850px;
+  padding: 5px;
+  background-color: white;
+  border-radius: 10px;
+  -moz-border-radius: 10px; /* for Firefox */
+  -webkit-border-radius: 10px; /* for Chrome */
+}
+
+div.structure#content {
+  margin: auto;
+  width: 1000px;
+}
+
+div.structure#footer {
+  margin: auto;
+  width: 1000px;
+  text-align: right;
+}

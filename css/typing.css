@@ -1,0 +1,15 @@
+﻿#mondai {
+  margin: 10px;
+  font-size: 20px;
+  font-family: 'UI Gothic';
+  background: rgba(255,255,255,0.5);
+  width: 800px;
+  word-wrap: break-word;
+}
+
+#tarea {
+  margin: 10px;
+  font-size: 20px;
+  font-family: 'UI Gothic';
+  width: 800px;
+} 
